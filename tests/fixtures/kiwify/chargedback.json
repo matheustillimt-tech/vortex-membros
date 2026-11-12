@@ -1,0 +1,83 @@
+{
+  "order_id": "00000000-0000-4000-8000-000000000011",
+  "order_ref": "ref0002",
+  "order_status": "chargedback",
+  "product_type": "payment",
+  "payment_method": "credit_card",
+  "store_id": "store00000000003",
+  "payment_merchant_id": "1000000000000000001",
+  "installments": 12,
+  "card_type": "mastercard",
+  "card_last4digits": "0000",
+  "card_rejection_reason": null,
+  "boleto_URL": null,
+  "boleto_barcode": null,
+  "boleto_expiry_date": null,
+  "pix_code": null,
+  "pix_expiration": null,
+  "sale_type": "producer",
+  "created_at": "2026-07-11 14:56",
+  "updated_at": "2026-09-22 18:50",
+  "approved_date": "2026-07-11 14:56",
+  "refunded_at": null,
+  "webhook_event_type": "chargeback",
+  "Product": {
+    "product_id": "00000000-0000-4000-8000-000000000013",
+    "product_name": "Acesso Vitalicio Curso de Exemplo"
+  },
+  "Customer": {
+    "full_name": "Fulano",
+    "first_name": "Fulano",
+    "email": "fulano@exemplo.com",
+    "mobile": "(00) 00000-0000",
+    "CPF": "000.000.000-00",
+    "cnpj": null,
+    "ip": "0.0.0.0",
+    "instagram": null,
+    "country": "br",
+    "custom_fields": []
+  },
+  "Commissions": {
+    "charge_amount": 1229,
+    "product_base_price": 990,
+    "product_base_price_currency": "BRL",
+    "kiwify_fee": 49,
+    "kiwify_fee_currency": "BRL",
+    "commissioned_stores": [
+      {
+        "id": "00000000-0000-4000-8000-000000000001",
+        "type": "coproducer",
+        "custom_name": "Fulano",
+        "email": "fulano@exemplo.com",
+        "value": "471"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000021",
+        "type": "producer",
+        "custom_name": "Fulano",
+        "email": "fulano@exemplo.com",
+        "value": "470"
+      }
+    ],
+    "currency": "BRL",
+    "my_commission": 470,
+    "funds_status": "waiting",
+    "estimated_deposit_date": "2026-07-27T03:00:00.000Z",
+    "deposit_date": null
+  },
+  "TrackingParameters": {
+    "src": null,
+    "sck": null,
+    "utm_source": "FB",
+    "utm_medium": "exemplo-medium",
+    "utm_campaign": "exemplo-campanha",
+    "utm_content": "exemplo-conteudo",
+    "utm_term": "Instagram_Feed",
+    "s1": null,
+    "s2": null,
+    "s3": null
+  },
+  "checkout_link": "chk0003",
+  "access_url": null,
+  "signature": "<TOKEN>"
+}

@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`login (AuthShell) com as configurações padrão 1`] = `"<div data-theme="dark" data-font-size="default" style="--accent:#ff7500" class="inter-font flex min-h-svh w-full flex-1 flex-col-reverse bg-[#111213] text-[14.4px] font-normal leading-[21.6px] text-white min-[576px]:flex-row"><aside aria-label="Imagem da tela de acesso" style="background-color:#180f0c" class="flex min-h-[60vh] flex-[1_1_auto] flex-col items-center justify-end px-[15px] py-12 min-[576px]:min-h-0 min-[576px]:max-w-[50%] min-[576px]:flex-[0_0_50%] min-[576px]:py-0"><div class="px-4 pt-12 text-center text-[14.4px] leading-[21.6px] text-white min-[576px]:pb-12"><p class="m-0">Copyright © 2026 - Vórtex Membros<br/>Todos os direitos reservados.</p></div></aside><main class="bg-[#181a1b] px-[15px] min-[576px]:flex min-[576px]:flex-1 min-[576px]:items-center min-[576px]:justify-center"><div class="mx-auto w-4/5 max-w-[500px] py-12"><div class="flex h-[45px] justify-center"><span class="flex h-[45px] items-center text-center font-bold text-white">Vórtex Membros</span></div><form id="f"></form></div></main></div>"`;
+
+exports[`área do aluno: tema, rodapé e logo com as configurações padrão 1`] = `
+{
+  "data-font-size": "default",
+  "data-theme": "dark",
+  "style": {
+    "--accent": "#ff7500",
+  },
+}
+`;
+
+exports[`área do aluno: tema, rodapé e logo com as configurações padrão 2`] = `"<footer class="mt-auto flex flex-col items-center border-t border-line p-6 text-center text-[calc(11.2px*var(--fs))] leading-[1.5] min-[992px]:flex-row min-[992px]:items-start min-[992px]:justify-between min-[992px]:text-left"><small class="text-[length:inherit] text-muted">Copyright © 2026 - Vórtex Membros. Todos os direitos reservados.</small></footer>"`;
+
+exports[`área do aluno: tema, rodapé e logo com as configurações padrão 3`] = `"<span class="vx-logo-text">Vórtex Membros</span>"`;

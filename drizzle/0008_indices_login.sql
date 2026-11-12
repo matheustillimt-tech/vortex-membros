@@ -1,0 +1,2 @@
+CREATE INDEX "login_attempts_window_start_idx" ON "login_attempts" USING btree ("window_start");--> statement-breakpoint
+CREATE INDEX "sessions_expires_at_idx" ON "sessions" USING btree ("expires_at");

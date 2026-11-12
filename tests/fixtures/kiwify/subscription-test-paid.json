@@ -1,0 +1,136 @@
+{
+  "order_id": "00000000-0000-4000-8000-000000000007",
+  "order_ref": "ref0004",
+  "order_status": "paid",
+  "product_type": "membership",
+  "payment_method": "credit_card",
+  "store_id": "store00000000002",
+  "payment_merchant_id": 85749076,
+  "installments": 1,
+  "card_type": "mastercard",
+  "card_last4digits": "0000",
+  "card_rejection_reason": null,
+  "boleto_URL": null,
+  "boleto_barcode": null,
+  "boleto_expiry_date": null,
+  "pix_code": null,
+  "pix_expiration": null,
+  "sale_type": "producer",
+  "created_at": "2026-09-19 02:12",
+  "updated_at": "2026-09-19 02:12",
+  "approved_date": "2026-09-20 02:12",
+  "refunded_at": null,
+  "webhook_event_type": "order_approved",
+  "Product": {
+    "product_id": "00000000-0000-4000-8000-000000000002",
+    "product_name": "Example product"
+  },
+  "Customer": {
+    "full_name": "Fulano",
+    "first_name": "Fulano",
+    "email": "fulano@exemplo.com",
+    "mobile": "(00) 00000-0000",
+    "cnpj": "000.000.000-00",
+    "ip": "0.0.0.0",
+    "instagram": "@kiwify",
+    "street": "Rua Exemplo",
+    "number": "0",
+    "complement": "Rua Exemplo",
+    "neighborhood": "Rua Exemplo",
+    "city": "Balneário Camboriú",
+    "state": "SC",
+    "zipcode": "Rua Exemplo",
+    "custom_fields": [
+      {
+        "title": "Example field",
+        "value": "Example value"
+      }
+    ]
+  },
+  "Commissions": {
+    "charge_amount": 8914,
+    "product_base_price": 8914,
+    "product_base_price_currency": "BRL",
+    "kiwify_fee": 981,
+    "kiwify_fee_currency": "BRL",
+    "settlement_amount": 8914,
+    "settlement_amount_currency": "BRL",
+    "sale_tax_rate": 0,
+    "sale_tax_amount": 0,
+    "commissioned_stores": [
+      {
+        "id": "00000000-0000-4000-8000-000000000018",
+        "type": "producer",
+        "custom_name": "Fulano",
+        "email": "fulano@exemplo.com",
+        "value": "7933"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000009",
+        "type": "coproducer",
+        "custom_name": "Fulano",
+        "email": "fulano@exemplo.com",
+        "value": "7933"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000014",
+        "type": "affiliate",
+        "affiliate_id": "HwuRlPx",
+        "custom_name": "Fulano",
+        "email": "fulano@exemplo.com",
+        "value": "7933"
+      }
+    ],
+    "currency": "BRL",
+    "my_commission": 7933,
+    "funds_status": null,
+    "estimated_deposit_date": null,
+    "deposit_date": null
+  },
+  "TrackingParameters": {
+    "src": null,
+    "sck": null,
+    "utm_source": null,
+    "utm_medium": null,
+    "utm_campaign": null,
+    "utm_content": null,
+    "utm_term": null,
+    "s1": null,
+    "s2": null,
+    "s3": null
+  },
+  "Subscription": {
+    "id": "00000000-0000-4000-8000-000000000017",
+    "start_date": "2026-09-16T02:12:02.795Z",
+    "next_payment": "2026-09-23T02:12:02.795Z",
+    "status": "active",
+    "plan": {
+      "id": "00000000-0000-4000-8000-000000000016",
+      "name": "Example plan",
+      "frequency": "weekly",
+      "qty_charges": 0
+    },
+    "charges": {
+      "completed": [
+        {
+          "order_id": "00000000-0000-4000-8000-000000000007",
+          "amount": 7933,
+          "status": "paid",
+          "installments": 1,
+          "card_type": "mastercard",
+          "card_last_digits": "0000",
+          "card_first_digits": "000000",
+          "created_at": "2026-09-16T02:12:02.795Z"
+        }
+      ],
+      "future": [
+        {
+          "charge_date": "2026-09-23T02:12:02.795Z"
+        }
+      ]
+    }
+  },
+  "subscription_id": "00000000-0000-4000-8000-000000000017",
+  "access_url": null,
+  "signature": "<TOKEN>"
+}

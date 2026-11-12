@@ -1,0 +1,77 @@
+{
+  "order_id": "00000000-0000-4000-8000-000000000010",
+  "order_ref": "ref0003",
+  "order_status": "refunded",
+  "product_type": "payment",
+  "payment_method": "pix",
+  "store_id": "store00000000001",
+  "payment_merchant_id": "1000000000000000002",
+  "installments": 1,
+  "card_type": null,
+  "card_last4digits": null,
+  "card_rejection_reason": null,
+  "boleto_barcode": null,
+  "boleto_expiry_date": null,
+  "pix_code": null,
+  "pix_expiration": null,
+  "sale_type": "producer",
+  "created_at": "2026-10-14 00:22",
+  "updated_at": "2026-10-15 23:12",
+  "approved_date": "2026-10-14 00:26",
+  "refunded_at": "2026-10-15 23:12",
+  "webhook_event_type": "order_refunded",
+  "Product": {
+    "product_id": "00000000-0000-4000-8000-000000000019",
+    "product_name": "Curso de Exemplo",
+    "product_offer_id": "00000000-0000-4000-8000-000000000015",
+    "product_offer_name": "Oficial 27,90"
+  },
+  "Customer": {
+    "full_name": "Fulano",
+    "first_name": "Fulano",
+    "email": "fulano@exemplo.com",
+    "mobile": "(00) 00000-0000",
+    "CPF": "000.000.000-00",
+    "cnpj": null,
+    "ip": "0.0.0.0",
+    "instagram": null,
+    "country": "br",
+    "custom_fields": []
+  },
+  "Commissions": {
+    "charge_amount": 2790,
+    "product_base_price": 2790,
+    "product_base_price_currency": "BRL",
+    "kiwify_fee": 367,
+    "kiwify_fee_currency": "BRL",
+    "commissioned_stores": [
+      {
+        "id": "00000000-0000-4000-8000-000000000006",
+        "type": "producer",
+        "custom_name": "Fulano",
+        "email": "fulano@exemplo.com",
+        "value": "2423"
+      }
+    ],
+    "currency": "BRL",
+    "my_commission": 2423,
+    "funds_status": "waiting",
+    "estimated_deposit_date": "2026-10-16T03:00:00.000Z",
+    "deposit_date": null
+  },
+  "TrackingParameters": {
+    "src": null,
+    "sck": null,
+    "utm_source": "FB_exemplo",
+    "utm_medium": "exemplo-medium",
+    "utm_campaign": "exemplo-campanha",
+    "utm_content": "exemplo-conteudo",
+    "utm_term": "Instagram_Stories",
+    "s1": null,
+    "s2": null,
+    "s3": null
+  },
+  "checkout_link": "chk0002",
+  "access_url": null,
+  "signature": "<TOKEN>"
+}

@@ -1,0 +1,1 @@
+{"regions":["gru1"],"crons":[{"path":"/api/cron/emails","schedule":"0 12 * * *"}]}

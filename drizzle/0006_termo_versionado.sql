@@ -1,0 +1,1 @@
+ALTER TABLE "platform_terms_acceptance" ADD COLUMN "terms_hash" text DEFAULT '' NOT NULL;

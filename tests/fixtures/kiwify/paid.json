@@ -1,0 +1,74 @@
+{
+  "order_id": "00000000-0000-4000-8000-000000000005",
+  "order_ref": "ref0001",
+  "order_status": "paid",
+  "product_type": "payment",
+  "payment_method": "credit_card",
+  "store_id": "store00000000001",
+  "payment_merchant_id": "00000000-0000-4000-8000-000000000020",
+  "installments": 6,
+  "card_type": "mastercard",
+  "card_last4digits": "0000",
+  "boleto_barcode": null,
+  "boleto_expiry_date": null,
+  "pix_code": null,
+  "pix_expiration": null,
+  "sale_type": "producer",
+  "created_at": "2026-10-15 18:04",
+  "updated_at": "2026-10-15 18:04",
+  "approved_date": "2026-10-15 18:04",
+  "refunded_at": null,
+  "webhook_event_type": "order_approved",
+  "Product": {
+    "product_id": "00000000-0000-4000-8000-000000000003",
+    "product_name": "Acesso Vitalicio Curso de Exemplo"
+  },
+  "Customer": {
+    "full_name": "Fulano",
+    "first_name": "Fulano",
+    "email": "fulano@exemplo.com",
+    "mobile": "(00) 00000-0000",
+    "CPF": "000.000.000-00",
+    "cnpj": null,
+    "ip": "0.0.0.0",
+    "instagram": null,
+    "country": "br",
+    "custom_fields": []
+  },
+  "Commissions": {
+    "charge_amount": 1114,
+    "product_base_price": 990,
+    "product_base_price_currency": "BRL",
+    "kiwify_fee": 59,
+    "kiwify_fee_currency": "BRL",
+    "commissioned_stores": [
+      {
+        "id": "00000000-0000-4000-8000-000000000004",
+        "type": "producer",
+        "custom_name": "Fulano",
+        "email": "fulano@exemplo.com",
+        "value": "931"
+      }
+    ],
+    "currency": "BRL",
+    "my_commission": 931,
+    "funds_status": "waiting",
+    "estimated_deposit_date": "2026-10-30T03:00:00.000Z",
+    "deposit_date": null
+  },
+  "TrackingParameters": {
+    "src": null,
+    "sck": null,
+    "utm_source": "FB_exemplo",
+    "utm_medium": "exemplo-medium",
+    "utm_campaign": "exemplo-campanha",
+    "utm_content": "exemplo-conteudo",
+    "utm_term": "Instagram_Stories",
+    "s1": null,
+    "s2": null,
+    "s3": null
+  },
+  "checkout_link": "chk0001",
+  "access_url": null,
+  "signature": "<TOKEN>"
+}

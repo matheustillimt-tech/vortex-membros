@@ -1,0 +1,160 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792011344494,
+      "tag": "0000_legal_umar",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792114067241,
+      "tag": "0001_painel_media_conteudo",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792143057207,
+      "tag": "0002_termo_de_aceite",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792156022551,
+      "tag": "0003_conteudo_programado",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792156785872,
+      "tag": "0004_primeira_visita",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1792159399794,
+      "tag": "0005_termo_primeiro_acesso",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1792160804059,
+      "tag": "0006_termo_versionado",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1792164442931,
+      "tag": "0007_login_attempts",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1792164717875,
+      "tag": "0008_indices_login",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1792165190367,
+      "tag": "0009_email_outbox",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1792177664912,
+      "tag": "0010_password_resets",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1792178661946,
+      "tag": "0011_administradores",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1792188675547,
+      "tag": "0012_entregas_vendas",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1792206344330,
+      "tag": "0013_alunos_eventos",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1792206894220,
+      "tag": "0014_primeiro_acesso_existentes",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1792207249478,
+      "tag": "0015_perfil_do_aluno",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1792219221266,
+      "tag": "0016_visualizacoes_indices_tags",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1792220156766,
+      "tag": "0017_importacoes",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1793316589969,
+      "tag": "0018_indices_conteudo",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1793402956226,
+      "tag": "0019_admin_lixeira",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1793403153531,
+      "tag": "0020_programacao_atualizada",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1793501690799,
+      "tag": "0021_avatar_aluno",
+      "breakpoints": true
+    }
+  ]
+}
